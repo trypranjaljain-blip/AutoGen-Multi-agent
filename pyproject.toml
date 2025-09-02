@@ -1,0 +1,32 @@
+[project]
+name = "test-repo-autogen-orchestor"
+version = "0.1.0"
+description = "Multi-Agent AI Framework for Axis Max Life Insurance using AutoGen"
+authors = [
+    {name = "Insurance AI Team", email = "team@company.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "autogen-agentchat>=0.2.0",
+    "openai>=1.0.0",
+    "PyPDF2>=3.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "pydantic>=2.0.0",
+    "typing-extensions>=4.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
